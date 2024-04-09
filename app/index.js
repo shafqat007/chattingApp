@@ -1,12 +1,12 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, ActivityIndicator } from 'react-native';
+import React from 'react';
 
-const Home = () => {
+const StartPage = () => {
   return (
-    <View style={{paddingTop:40}} className="bg-red-200">
-      <Text className="text-3xl text-center">Home</Text>
+    <View className="flex-1 items-center justify-center">
+      <ActivityIndicator size="large" color="gray" />
     </View>
-  )
-}
+  );
+};
 
-export default Home
+export default StartPage;
